@@ -1,0 +1,20 @@
+name: extumate
+channels:
+- conda-forge
+dependencies:
+- python=3.8
+- conda
+- pandas
+- seaborn
+- matplotlib
+- numpy
+- scipy
+- scikit-learn
+- spyder
+- jupyter
+- sqlalchemy
+- psycopg2
+- pip
+- pip:
+  - streamlit
+  - sqlalchemy_utils
