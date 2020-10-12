@@ -7,10 +7,14 @@ Created on Sun Sep 27 10:00:15 2020
 """
 from pathlib import Path  # pathlib is seriously awesome!
 
-data_dir = '../data/feathered/'
+data_dir = '../data/feathered/'  
+processed_dir = "../data/processed/"
+features_dir = '../data/processed/selected_features'
+
 #data_path = data_dir / 'my_file.csv'  # use feather files if possible!!!
 
 #customer_db_url = 'sql:///customer/db/url'
 #purchases_db_url = 'sql:///purchases/db/url'
 
 extumate_engine_url = 'postgresql://postgres:password@localhost:5432/extumate'
+pyscpg2_connection="dbname=extumate user = postgres host=localhost password=password"
