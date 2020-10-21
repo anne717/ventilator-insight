@@ -45,10 +45,10 @@ The notebooks should be run in the following order:
 07a_log_model_without pipeline.ipynb: notebook containing the finalized model, together with explainable features. The model, processing pipeline and a subset of the training data are returned and used for the web application.
 
 #### Web app files
-The webapp files can be found in the `extumate webapp files` folder
+The webapp files and script can be found in the `extumate webapp files` folder
 
 #### Config file
-In extumate/extumate/config.py, are placed special paths and variables that are used across the project. 
+In extumate/extumate/config.py, are placed special paths and variables that are used across the project. The repository is connected to container-based cloud PasS provider, Heroku, to deploy the app over the web.
 
 ## Requirements
 - use Python 3.8
