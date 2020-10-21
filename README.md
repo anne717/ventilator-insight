@@ -43,7 +43,7 @@ The notebooks should be run in the following order:
 06a_EDA_labs_strip.ipynb: Exploratory data analysis on the dataset, inclusion of additional engineered features
 
 07a_log_model_without pipeline.ipynb: notebook containing the finalized model, together with explainable features. The model, processing pipeline and a subset of the training data are returned and used for the web application.
-
+txt
 #### Web app files
 The webapp files and script can be found in the `extumate webapp files` folder. This folder contains all the necessary files required to deploy the app over the web using the containter-based cloud PasS provider, Heroku.
 
