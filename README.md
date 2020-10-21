@@ -52,5 +52,5 @@ In extumate/extumate/config.py, are placed special paths and variables that are 
 
 ## Requirements
 - use Python 3.8
-- required libraries listed in `requirements.txt`
+- required libraries listed in requirements.txt
 
