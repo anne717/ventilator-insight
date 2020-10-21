@@ -51,6 +51,6 @@ The webapp files can be found in the `extumate webapp files` folder
 In extumate/extumate/config.py, are placed special paths and variables that are used across the project. 
 
 ## Requirements
-- use Python 3
+- use Python 3.8
 - required libraries listed in requirements.txt
 
