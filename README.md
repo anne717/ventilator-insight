@@ -29,10 +29,23 @@ The model was deployed to a web application using streamlit and Heroku.
 ## Code
 
 The notebooks should be run in the following order:
+
 01explore_vents.ipynb: find patients that were intubated and determine whether they were reintubated within 48 hours
+
 02_extract_sql.ipynb: uses pyscopg2 to query a PostgresSQL database containing all the MIMIC-IV tables and saves query tables as feather files
+
 03_eventfeature_processing.ipynb: cleans data by scanning for duplicate readings and returns the cleaned data as a feather file
+
 04_patient_age_and_sex.ipynb: obtains patient data from patients table not in the PostgreSQL database
+
 05a_clean_data_labs_strip.ipynb: handles missing values, erroneous values and outliers
+
 06a_EDA_labs_strip.ipynb: Exploratory data analysis on the dataset, inclusion of additional engineered features
+
 07a_log_model_without pipeline.ipynb: notebook containing the finalized model, together with explainable features. The model, processing pipeline and a subset of the training data are returned and used for the web application.
+
+#### Web app files
+The webapp files can be found in the `extumate webapp files` folder
+
+#### Config file
+In extumate/extumate/config.py, are placed special paths and variables that are used across the project. 
